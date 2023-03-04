@@ -1,4 +1,4 @@
-export const data = [
+ const data = [
     {
       id: 1,
       title: 'Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops',
@@ -158,5 +158,4 @@ export const data = [
       content: '95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.',
       stock: false,
       image: 'https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg',
-    }
-  ]
+    } ] 
