@@ -1,0 +1,124 @@
+
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.cart {
+  z-index: 999;
+  position: absolute;
+  float: right;
+  top: 0;
+  height: 100%;
+  right: 0;
+  display: none;
+  width: 360px;
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.cart.active {
+  display: initial;
+}
+
+.cart-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+.detail-box {
+    display: grid;
+    row-gap: 0.5rem;
+  }
+.cart-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+  }
+  .cart-img {
+    position: relative;
+  }
+
+section {
+  overflow: hidden;
+}
+
+.cart-product-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  .cart-price {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  
+  .cart-box {
+    display: grid;
+    grid-template-columns: 100px 150px 60px;
+    align-items: center;
+    /* display: flex;
+    justify-content: space-around; */
+    padding: 10px 0;
+    margin-top: 1rem;
+  }
+  .units {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+.shop {
+  margin-top: 2rem;
+}
+
+.shop-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  gap: 2.4rem;
+}
+
+
+.product-box {
+    position: relative;
+  }
+  .product-box:hover {
+    padding: 10px;
+    border: 2px solid rgb(20, 108, 172);
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  
+  .product-img {
+    width: 100%;
+    border-radius: 60%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    color: #777777;
+  }
+  
+  .price {
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+  
+  .product-box button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ff497c;
+    color: #ffffff;
+    padding: 0 18px;
+    border: 1px solid #ff497c;
+    border-radius: 4px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 16px 32px 0 rgb(0 0 0 / 6%);
+  }
